@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Kadwa:wght@400;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Kadwa", serif;
+}
+/* Altera a cor do cabeçário*/
+.bg-primary, .btn-primary {
+    background-color: #3F45B6 !important; 
+}
+
+.container-fluid {
+    display: flex;
+    height: 8.43rem;
+}
+
+.btn-primary {
+    border-color: white;
+    height: 2.5rem;
+    border-radius: 1.25rem;
+    border-width: 0.20rem;
+}
+
+
