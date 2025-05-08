@@ -6,8 +6,13 @@
     font-family: "Kadwa", serif;
 }
 /* Altera a cor do cabeçário*/
-.bg-primary, .btn-primary {
+.bg-primary, .btn-primary, .container-fluid-secondary {
     background-color: #3F45B6 !important; 
+}
+
+.container-fluid-secondary {
+    height: 3.5rem;
+    
 }
 
 .container-fluid {
