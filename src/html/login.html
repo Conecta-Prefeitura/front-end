@@ -9,13 +9,27 @@
     <link rel="shortcut icon" href="../../public/img/favicon.ico" type="image/x-icon">
 </head>
 <body>
-    <section class="container-fluid p-0 m-0 d-flex">
-        <img src="../../public/img/img-login-new.png"  alt="Prefeitura_de_Juazeiro_do_Norte">
-            <div class="bg-light d-flex" id="login">
-                <h1>dddd</h1>
-            </div> 
-
+    <section class="container-fluid d-flex p-0">
+        <div class="row">
+            <div class="col">
+                <img src="../../public/img/img-login.png" id="img-login" alt="">
+            </div>
+            <div class="col">
+                <img src="../../public/img/logo-login.png" id="logo-login" alt="">
+                <h2>Autenticação</h2>
+                <div form class="form-login" action="../controller/loginController.php" method="POST">
+                    <div class="mb-2">
+                        <label for="email" class="form-label ">Usuário</label>
+                        <input type="email" class="form-control" id="email" name="email" required>
+                    </div>
+                    <div class="mb-2">
+                        <label for="senha" class="form-label">Senha</label>
+                        <input type="password" class="form-control" id="senha" name="senha" required>
+                    </div>
+                    <button type="submit" class="btn btn-primary">Entrar</button>
+                </div>
+            </div>
+        </div>
     </section>
-         
 </body>
 </html>
