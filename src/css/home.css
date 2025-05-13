@@ -12,7 +12,6 @@
 
 .container-fluid-secondary {
     height: 3.5rem;
-    
 }
 
 .container-fluid {
@@ -22,9 +21,29 @@
 
 .btn-primary {
     border-color: white;
-    height: 2.5rem;
-    border-radius: 1.25rem;
+    height: 3.1rem;
+    border-radius: 1.5rem;
     border-width: 0.20rem;
+    font-size: 2.5vh;
+    padding-bottom: 40px;
+}
+
+#img-btn, #nav-itens {
+    display: inline-block;
+    text-decoration: none; /* Remove o sublinhado padrão */
+    transition: transform 0.3s ease-in-out; /* Adiciona uma transição suave */
+}
+
+#nav-itens {
+    color: white;
+    font-size: 2vh;
+    font-weight: 400;
+}
+
+#nav-itens:hover, #img-btn:hover {
+    transform: scale(1.1); /* Aumenta o tamanho do texto em 10% no hover */
+    color: darkblue; /* Altera a cor do link no hover (opcional) */
+    text-decoration: none; /* Remove o sublinhado no hover */
 }
 
 
