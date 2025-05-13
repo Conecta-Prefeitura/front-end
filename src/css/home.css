@@ -37,7 +37,7 @@
 #nav-itens {
     color: white;
     font-size: 2vh;
-    font-weight: 700;
+    font-weight: 600;
 }
 
 #nav-itens:hover, #img-btn:hover {
@@ -46,4 +46,20 @@
     text-decoration: none; /* Remove o sublinhado no hover */
 }
 
+/* Estilização do Container Principal */
 
+
+
+.bg-light {
+    background-color: #d9d9d9 50% !important;
+}
+
+
+
+
+
+
+/* Responsividade */
+@media (min-width: 992px) {
+
+}

@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Kadwa:wght@400;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Kadwa", serif;
+}
+
+.card-post {
+    height: 55vh;
+    width: 65vh;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 15px;
+    background-color: blueviolet;
+}
+
+#img-card{
+    height: 280px;
+    width: 480px;
+}
