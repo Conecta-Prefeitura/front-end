@@ -14,7 +14,7 @@
     height: 3.5rem;
 }
 
-.container-fluid {
+.container-fluid, #footer {
     display: flex;
     height: 8.43rem;
 }
@@ -48,16 +48,9 @@
 
 /* Estilização do Container Principal */
 
-
-
 .bg-light {
     background-color: #d9d9d9 50% !important;
 }
-
-
-
-
-
 
 /* Responsividade */
 @media (min-width: 992px) {
