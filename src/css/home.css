@@ -5,56 +5,59 @@
     padding: 0;
     font-family: "Kadwa", serif;
 }
+
 /* Altera a cor do cabeçário*/
 .bg-primary, .btn-primary, .container-fluid-secondary {
     background-color: #3F45B6 !important; 
 }
 
-.container-fluid-secondary {
-    height: 3.5rem;
-}
-
+/* Cabeçário e Rodapé sem Margens internas e externas*/
 .container-fluid, #footer {
     display: flex;
-    height: 8.43rem;
     margin: 0;
+    padding: 0;
 }
 
+#footer {
+    position: relative;
+    bottom: 0;
+}
+
+/* Define Cor, Altura, Expessura da borda, Largura da Borda e tamanho da fonte do botão */
 .btn-primary {
     border-color: white;
-    height: 3.1rem;
-    border-radius: 1.5rem;
+    height: auto;
+    border-radius: 2.5rem;
     border-width: 0.20rem;
-    font-size: 2.5vh;
-    padding-bottom: 40px;
+    font-size: 3.5vh;
 }
 
-/* Coloca a cor dos icons para branco */
-.bi{
+/* Define a cor e tamanho dos Icons */
+.bi {
     color: white;
+    font-size: 25px;
 }
 
-#img-btn, #nav-itens {
+/* Define Transição e remove o sublinado dos links */
+#icon-a, #nav-itens {
     display: inline-block;
-    text-decoration: none; /* Remove o sublinhado padrão */
-    transition: transform 0.3s ease-in-out; /* Adiciona uma transição suave */
+    text-decoration: none; 
+    transition: transform 0.3s ease-in-out; 
 }
 
+/* Define Cor, tamanho e peso dos links */
 #nav-itens {
     color: white;
-    font-size: 2vh;
-    font-weight: 600;
+    font-size: 1.5rem;
+    font-weight: 400;
 }
+
 /* Realiza o efeito de crescer os itens */
-#nav-itens:hover, #img-btn:hover {
-    transform: scale(1.1); /* Aumenta o tamanho do texto em 10% no hover */
-    color: darkblue; /* Altera a cor do link no hover (opcional) */
+#nav-itens:hover, #icon-a:hover, .btn-primary:hover {
+    transform: scale(1.1); /* Aumenta o tamanho do texto em 10% no hover */ 
     text-decoration: none; /* Remove o sublinhado no hover */
 }
-/* Define a altura do rodapé de acordo com o tamanho da tela */
-#footer {
-    height: 20vh;
-}
+
 /* Centraliza os itens no centro da coluna */
 .card-title, .card-subtitle {
     text-align: center;
@@ -65,7 +68,7 @@
     margin-top: 1rem;
     font-weight: 600;
 }  
-/* Estilização do Container Principal */
+/* Estilização da cor de fundo do Container Principal */
 .bg-light {
     background-color: #d9d9d9 50% !important;
 }

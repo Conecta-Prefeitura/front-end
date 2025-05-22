@@ -7,7 +7,7 @@
 }
 
 .card-post {
-    height: 55vh;
+    height: auto;
     width: 65vh;
     border-radius: 10px;
     padding: 10px;
@@ -16,6 +16,10 @@
 }
 
 #img-card{
+    display: flex;
     height: 280px;
     width: 480px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
 }
