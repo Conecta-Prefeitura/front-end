@@ -29,6 +29,11 @@
     padding-bottom: 40px;
 }
 
+/* Coloca a cor dos icons para branco */
+.bi{
+    color: white;
+}
+
 #img-btn, #nav-itens {
     display: inline-block;
     text-decoration: none; /* Remove o sublinhado padrão */
