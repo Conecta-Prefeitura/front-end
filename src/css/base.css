@@ -16,9 +16,10 @@
 }
 
 #img-card{
+    margin: auto;
     display: flex;
-    height: 280px;
-    width: 480px;
+    height: 300px;
+    width: 590px;
     text-align: center;
     align-items: center;
     justify-content: center;
