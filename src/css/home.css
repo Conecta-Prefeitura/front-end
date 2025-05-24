@@ -18,11 +18,6 @@
     padding: 0;
 }
 
-#footer {
-    position: relative;
-    bottom: 0;
-}
-
 /* Define Cor, Altura, Expessura da borda, Largura da Borda e tamanho da fonte do botão */
 .btn-primary {
     border-color: white;
@@ -62,15 +57,22 @@
 .card-title, .card-subtitle {
     text-align: center;
 }
+
 /* Margem de baixo do h5 */
 .card-title {
     margin-bottom: 0.5rem;
     margin-top: 1rem;
     font-weight: 600;
 }  
+
 /* Estilização da cor de fundo do Container Principal */
 .bg-light {
     background-color: #d9d9d9 50% !important;
+}
+
+/* Define a margema direita dos Icons Circle */
+.bi-circle-fill {
+    margin-right: 0.5rem;
 }
 
 /* Responsividade */

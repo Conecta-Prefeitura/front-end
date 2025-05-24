@@ -18,7 +18,17 @@
 #img-card{
     margin: auto;
     display: flex;
-    height: 300px;
+    height: 350px;
     width: 590px;
-    
+    border-radius: 10px;
+}
+
+/* Define a cor do texto dos subtítulos */
+.card-title-h2, .card-text {
+    color: white;
+}
+
+/* Define a alinhação do texto */
+.card-text{
+    text-align: justify;
 }
