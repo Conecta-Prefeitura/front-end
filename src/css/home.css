@@ -39,7 +39,7 @@
 }
 
 /* Define Transição e remove o sublinado dos links */
-#icon-a, #nav-itens {
+#icon-a, #nav-itens,.btn-primary {
     display: inline-block;
     text-decoration: none; 
     transition: transform 0.3s ease-in-out; 
