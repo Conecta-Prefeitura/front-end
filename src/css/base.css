@@ -32,3 +32,30 @@
 .card-text{
     text-align: justify;
 }
+
+
+
+/* Container Card-create */
+.card{
+    max-width: 65vh; 
+    margin: 1.25rem auto; 
+    background-color: #dfdfdf;
+    border-color: #dfdfdf;
+}
+
+
+#img-profile{
+    height: auto;
+    width: 2.5rem;  
+    margin-right: 1.5%;
+}
+
+#btn-create{
+    border-color: #3F45B6;
+    background-color: #3F45B6;
+    color: white;
+}
+
+.bicard{
+    color: #3F45B6;
+}
