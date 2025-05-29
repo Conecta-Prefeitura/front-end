@@ -12,8 +12,19 @@ label, h1 {
     font-weight: bold;
 }
 
+label {
+    font-size: 1.25rem;
+}
+
 .btn {
     background-color: #3F45B6;
     border-color: #3F45B6;
     margin-top: 1.5rem;
+}
+
+select {
+    border-color: #3F45B6;
+    color: #3F45B6;
+    border-radius: 1.5625rem;
+    padding: 0.5rem;
 }
