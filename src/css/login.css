@@ -42,6 +42,11 @@ h2{
     margin-top: 1.5rem;
 }
 
+.btn a{
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
 .form-login, .btn, .form-control {
     border-radius: 30px;
 }
