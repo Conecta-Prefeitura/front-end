@@ -6,13 +6,38 @@
     font-family: "Kadwa", serif;
 }
 
-.card-post {
+/* Define a base de cada post */
+.card-post-saude, .card-post-educacao, .card-post-cultura, .card-post-esporte, .card-post-cultura, .card-post-transito {
     height: auto;
     width: 65vh;
     border-radius: 10px;
     padding: 10px;
     margin: 15px;
-    background-color: blueviolet;
+}
+
+/* Define a cor do fundo do post-cultura */
+.card-post-cultura {
+    background-color: #85cf72;
+}
+
+/* Define a cor do fundo do post- */
+.card-post-transito{
+    background-color: #424242;
+}
+
+/* Define a cor do fundo do post-saude */
+.card-post-saude {
+    background-color: #9EF8EE;
+}
+
+/* Define a cor do fundo do post-educacao */
+.card-post-educacao {
+    background-color: #7349eb;
+}
+
+/* Define a cor do fundo do post-esporte */
+.card-post-esporte {
+    background-color: #A62B1F;
 }
 
 #img-card{
@@ -32,8 +57,6 @@
 .card-text{
     text-align: justify;
 }
-
-
 
 /* Container Card-create */
 .card{
