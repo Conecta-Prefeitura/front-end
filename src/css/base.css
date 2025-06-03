@@ -40,6 +40,7 @@
     background-color: #A62B1F;
 }
 
+/* Define o padrão das imagens dos post */
 #img-card{
     margin: auto;
     display: flex;
@@ -66,19 +67,9 @@
     border-color: #dfdfdf;
 }
 
-
-#img-profile{
-    height: auto;
-    width: 2.5rem;  
-    margin-right: 1.5%;
-}
-
+/* Define a cor do botão de criar-post */
 #btn-create{
     border-color: #3F45B6;
     background-color: #3F45B6;
     color: white;
-}
-
-.bicard{
-    color: #3F45B6;
 }

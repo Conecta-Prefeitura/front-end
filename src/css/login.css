@@ -72,13 +72,21 @@ p{
     height: auto;
 }
 
-
-
-
 /* Responsividade */
 
-@media (min-width: 992px) {
+@media (min-width: 1800px) {
     #img-login {
-      max-width:  120% ;
+      max-width:  105%;
+      margin-right: 13rem;
+    }
+  }
+
+@media (max-width: 1600px) {
+    h2 {
+      margin-top: 0rem;
+    }
+    #img-login {
+      max-width:  110%;
+      margin-right: 3.1rem;
     }
   }
