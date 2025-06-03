@@ -57,6 +57,7 @@
 /* Define a alinhação do texto */
 .card-text{
     text-align: justify;
+    margin-top: 0.5rem;
 }
 
 /* Container Card-create */
