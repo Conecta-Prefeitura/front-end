@@ -74,3 +74,11 @@
     background-color: #3F45B6;
     color: white;
 }
+
+/* responsividade */
+
+@media (max-width: 1600px) {
+    .card-post-saude, .card-post-educacao, .card-post-cultura, .card-post-esporte, .card-post-transito {
+        width: 550px;
+    }
+}
