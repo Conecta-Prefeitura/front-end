@@ -12,9 +12,9 @@
 </head>
 <body>
     <main>
-        <div class="container">
-            <h1 class="text-center mt-5">Criar Novo Post</h1>
-            <form action="/posts" method="POST" class="mt-4">
+        <div class="container py-5">
+            <h1 class="text-center mb-4">Criar Novo Post</h1>
+            <form action="http://localhost:3000/comunicados" method="POST" class="mt-4" enctype="application/json">
                 <div class="mb-3">
                     <label for="titulo" class="form-label">Título</label>
                     <input type="text" class="form-control" id="titulo" name="titulo" required>
@@ -24,8 +24,8 @@
                     <textarea class="form-control" id="conteudo" name="conteudo" rows="5" required></textarea>
                 </div>
                 <div class="mb-3">
-                    <label for="secretaria">Secretaria</label>
-                        <select id="secretaria" name="secretaria">
+                    <label for="secretaria" class="form-label">Secretaria</label>
+                        <select id="secretaria" name="secretaria" class="form-select">
                             <option value="saude">Saúde</option>
                             <option value="transito">Trânsito</option>
                             <option value="educacao">Educação</option>
@@ -35,7 +35,7 @@
                 </div>
                 <div class="mb-3">
                     <label for="upload-midia">Fazer upload de foto ou vídeo:</label>
-                    <input type="file" id="img-card" accept="image/*, video/*">
+                    <input type="file" id="img-card" name="midia" class="form-control" accept="image/*, video/*">
                 </div>
                     <button type="submit" id="submitbtn" class="btn btn-primary"> Publicar </button>
             </form>
